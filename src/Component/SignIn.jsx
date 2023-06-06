@@ -40,7 +40,7 @@ export const SignIn = () => {
           <button>Sign In</button>
         </div>
         <div className={Style.registerDiv}>
-          <p>Don't have an account?</p>{" "}
+          <p>Don't have an account?</p>
           <p style={{ color: "#4b7cd8" }}>Register here</p>
         </div>
       </div>
