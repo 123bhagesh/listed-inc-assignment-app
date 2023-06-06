@@ -55,7 +55,7 @@ export const Dashboard = () => {
             <div className={Style.searchDiv}>
               <input type="text" placeholder="Search..." />
               <button>
-                <BiSearch style={{color:"rgb(200,200,200)"}} />
+                <BiSearch style={{color:"rgb(100,100,100)"}} />
               </button>
             </div>
             < FaRegBell  />
