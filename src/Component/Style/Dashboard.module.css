@@ -33,7 +33,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .secondChild>:nth-child(1)>div{
     display: flex;
@@ -56,10 +56,38 @@
     right: 27px;
     background: none;
     border: none;
+    margin-right: -18px;
 }
 .secondChild>:nth-child(1)>div>img{
     width: 26px;
     height: 26px;
     border-radius: 50%;
     border: 1px solid red;
+}
+.totalContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 186px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 16px 18px;
+    padding-right: 24px;
+    border-radius: 14px;
+}
+.card>div>p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.card>div>h2{
+    margin-top: -12px;
+}
+.card>img{
+    width: 22px;
+    height: 22px;
+    margin-top: 2px;
+    margin-left: 24px;
 }
