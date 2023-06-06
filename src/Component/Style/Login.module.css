@@ -5,7 +5,7 @@
     display: flex;
 }
 .fristChild{
-    width: 30%;
+    width: 35%;
     height: 100vh;
     background-color: black;
     font-size: 40px;
@@ -15,7 +15,7 @@
     align-items: center;
 }
 .secondChild{
-    width: 70%;
+    width: 65%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,6 +62,8 @@
     border: none;
     height: 38px;
     border-radius: 12px;
+    margin-top: 6px;
+
 }
 .signInputs>button{
     height: 40px;

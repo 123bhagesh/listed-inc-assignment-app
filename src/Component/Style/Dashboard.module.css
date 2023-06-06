@@ -1,0 +1,25 @@
+.dashboardContainer{
+    display: flex;
+}
+.fristChild{
+    width: 17%;
+    height: 100vh;
+    background-color: black;
+    /* font-size: 40px; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    /* align-items: center; */
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.tabs{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+    width: 250px;
+
+}
