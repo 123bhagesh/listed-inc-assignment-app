@@ -55,10 +55,10 @@ export const Dashboard = () => {
             <div className={Style.searchDiv}>
               <input type="text" placeholder="Search..." />
               <button>
-                <BiSearch />
+                <BiSearch style={{color:"rgb(200,200,200)"}} />
               </button>
             </div>
-            < FaRegBell style={{color:""}} />
+            < FaRegBell  />
             <img src="" alt="" />
           </div>
         </div>
