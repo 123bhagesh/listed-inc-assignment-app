@@ -67,6 +67,7 @@
 .totalContainer{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 .card{
     width: 186px;
@@ -90,4 +91,13 @@
     height: 22px;
     margin-top: 2px;
     margin-left: 24px;
+}
+.productsCards{
+    display: flex;
+    justify-content: space-between;
+}
+.productsCards>div{
+    width: 40%;
+    height: 250px;
+    border: 1px solid black;
 }
