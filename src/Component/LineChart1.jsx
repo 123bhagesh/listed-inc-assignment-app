@@ -42,7 +42,7 @@ export const LineChart1 = () => {
         series={state.series}
         type="area"
         width="100%"
-        height="350px"
+        height="320px"
         fill='false'
       />
     </div>

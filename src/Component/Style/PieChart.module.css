@@ -1,0 +1,34 @@
+.pieContainer{
+    display: flex;
+    width: 440px;
+    height: 180px;
+    /* border: 1px solid red; */
+    justify-content:space-between;
+}
+.pieContainer>div{
+    width: 45%;
+    height: 180px;
+    /* border: 1px solid red; */
+
+}
+.pieDetail{
+    display: flex;
+    align-items:center;
+    text-align: left;
+    height: 56px;
+    /* border: 1px solid red; */
+    gap: 10px;
+
+}
+.pieDetail>:nth-child(1){
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-top: -14px;
+}
+.pieDetail>:nth-child(2)>h4{
+    /* margin-top: 0px; */
+ }
+.pieDetail>:nth-child(2)>p{
+   /* margin-top: -14px; */
+}

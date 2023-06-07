@@ -65,8 +65,6 @@ const totalData = [
   },
 ];
 export const Dashboard = () => {
-
-
   return (
     <div className={Style.dashboardContainer}>
       <div className={Style.fristChild}>
@@ -109,14 +107,32 @@ export const Dashboard = () => {
           ))}
         </div>
         {/* <LineChart/> */}
-        <LineChart1/>
+        <LineChart1 />
         <div className={Style.productsCards}>
-           <div>
-           <PieChart/>
-           </div>
-           <div></div>
+          <div>
+            <h3>Top products</h3>
+            <PieChart/>
+          </div>
+          <div>
+            <h3>Today’s schedule</h3>
+            <div>
+                <div style={{height:"50px", border:"3px solid #9BDD7C"}}></div>
+                <div>
+                    <h5>Meeting with suppliers from Kuta Bali</h5>
+                    <p>14.00-15.00</p>
+                    <p>at Sunset Road, Kuta, Bali </p>
+                </div>
+            </div>
+            <div>
+            <div style={{height:"50px", border:"3px solid #6972C3"}}></div>
+                <div>
+                    <h5>Check operation at Giga Factory 1</h5>
+                    <p>18.00-20.00</p>
+                    <p>at Central Jakarta </p>
+                </div>
+            </div>
+          </div>
         </div>
-        
       </div>
     </div>
   );
