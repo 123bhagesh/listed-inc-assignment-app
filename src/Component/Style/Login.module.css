@@ -47,6 +47,20 @@
     background: white;
     font-size: 14px;
 }
+.signContainer>:nth-child(2)>button{
+    height: 25px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    border-radius: 8px;
+    padding: 4px;
+    background: white;
+    font-size: 14px;
+    color: rgb(80,80,80);
+    cursor: pointer;
+}
 .signInputs{
     display: flex;
     flex-direction: column;

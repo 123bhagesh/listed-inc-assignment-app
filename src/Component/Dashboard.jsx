@@ -92,7 +92,7 @@ export const Dashboard = () => {
               </button>
             </div>
             <FaRegBell />
-            <img src="" alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLHLePNW1E4lSvBZWv8BYq-0KKdlQf8Bgs8uPZQ4mK&s" alt="profile-icon" />
           </div>
         </div>
         <div className={Style.totalContainer}>

@@ -3,6 +3,7 @@ import './App.css';
 import { Dashboard } from './Component/Dashboard';
 import { SignIn } from './Component/SignIn';
 import { PieChart1 } from './Component/PieChart';
+import { MainRouter } from './AllRoutes/MainRouter';
 // import { PieChartComp } from './Component/PieChartComp';
 // import { Chart } from './Component/Chart';
 
@@ -10,8 +11,9 @@ import { PieChart1 } from './Component/PieChart';
 function App() {
   return (
     <div className="App">
-      <SignIn/>
-      <Dashboard/>
+      {/* <SignIn/> */}
+      {/* <Dashboard/> */}
+      <MainRouter/>
       
     </div>
   );
